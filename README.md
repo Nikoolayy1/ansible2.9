@@ -1,6 +1,6 @@
 # ansible2.9
 
-Dockerfile
+Dockerfile (ubuntu 20.04 has a bug, when trying to install Ansible)
 
 FROM ubuntu:18.04
 ARG DEBIAN_FRONTEND=noninteractive
