@@ -1,7 +1,8 @@
 # ansible2.9
 
 
-Ansible2.9:v1 uses Python 2 and and Ansible2.9:v2/latest uses Python 3. For working with Python3 on Ubuntu 18.04, you need to install Ansible with pip3, also pip3 does not add the directory /etc/ansible, so you need to manually create it and add files to it.
+Ansible2.9:v1 uses Python 2 and and Ansible2.9:v2/latest uses Python 3. For working with Python3 on Ubuntu 18.04, you need to install Ansible with pip3, also pip3 does not add the directory /etc/ansible, so you need to manually create it and add files to it.To run the container just write docker run -id nikoolayy1/ansible2.9:<select the tag> bash. Then see it with docker ps and enter it with docker exec -it <its id or name> /bin/bash.
+
 
 
 The DockerFile for Ansible2.9:v1 is:
